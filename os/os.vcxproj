@@ -140,10 +140,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="bootloader.asm" />
+    <None Include="CPUID.asm" />
     <None Include="DiskRead.asm" />
     <None Include="ExtendedProgram.asm" />
     <None Include="gdt.asm" />
     <None Include="print.asm" />
+    <None Include="SimplePaging.asm" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

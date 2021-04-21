@@ -36,5 +36,11 @@
     <None Include="gdt.asm">
       <Filter>Archivos de origen\Sector 2+</Filter>
     </None>
+    <None Include="CPUID.asm">
+      <Filter>Archivos de origen\Sector 2+</Filter>
+    </None>
+    <None Include="SimplePaging.asm">
+      <Filter>Archivos de origen\Sector 2+</Filter>
+    </None>
   </ItemGroup>
 </Project>
