@@ -144,6 +144,7 @@
     <None Include="DiskRead.asm" />
     <None Include="ExtendedProgram.asm" />
     <None Include="gdt.asm" />
+    <None Include="link.ld" />
     <None Include="print.asm" />
     <None Include="SimplePaging.asm" />
   </ItemGroup>

@@ -1,11 +1,11 @@
 
-PROGRAM_SPACE equ 0x7e00
+PROGRAM_SPACE equ 0x8000
 
 ReadDisk:
 
 	mov ah, 0x02
 	mov bx, PROGRAM_SPACE
-	mov al, 6
+	mov al, 32
 	mov dl, [BOOT_DISK]
 	mov ch, 0x00
 	mov dh, 0x00
