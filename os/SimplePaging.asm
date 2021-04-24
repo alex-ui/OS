@@ -4,11 +4,11 @@ PageTableEntry equ 0x1000
 SetUpIdentityPaging:
 	mov edi, PageTableEntry
 	mov cr3, edi
-	mov dword, [edi], 0x2003
+	mov dword [edi], 0x2003
 	add edi, 0x1000
-	mov dword, [edi], 0x3003
+	mov dword [edi], 0x3003
 	add edi, 0x1000
-	mov dword, [edi], 0x4003
+	mov dword [edi], 0x4003
 	add edi, 0x1000
 	
 	mov ebx, 0x00000003

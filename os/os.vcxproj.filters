@@ -43,4 +43,9 @@
       <Filter>Archivos de origen\Sector 2+</Filter>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Kernel.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

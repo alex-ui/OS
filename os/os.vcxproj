@@ -147,6 +147,9 @@
     <None Include="print.asm" />
     <None Include="SimplePaging.asm" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Kernel.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

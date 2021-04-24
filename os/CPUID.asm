@@ -21,7 +21,7 @@ DetectCPUID:
 	ret
 
 DetectLongMode:
-	mov eax 0x80000001
+	mov eax, 0x80000001
 	cpuid
 	test edx, 1 << 29
 	jz NoLongMode
